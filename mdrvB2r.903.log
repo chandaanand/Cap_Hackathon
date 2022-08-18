@@ -1,0 +1,13 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(246): Found resource "http://nimbusserver.aos.com:8000/css/images/review_Left_disabled.png" in HTML "http://nimbusserver.aos.com:8000/app/views/product-page.html"  	[MsgId: MMSG-26659]
+Action.c(246): web_url("product-page.html") was successful, 6064 body bytes, 1338 header bytes, 48 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(255): Notify: Transaction "3_Search_Items" ended with a "Pass" status (Duration: 6.9892 Think Time: 5.9996).	[MsgId: MMSG-16872]
+Action.c(257): lr_think_time: 30.00 seconds.	[MsgId: MMSG-15948]
+Action.c(259): Notify: Transaction "4_Add_To_Cart" started.	[MsgId: MMSG-16999]
+Action.c(261): web_custom_request("414141") started  	[MsgId: MMSG-26355]
+Action.c(261): web_custom_request("414141") was successful, 0 body bytes, 317 header bytes, 5 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(270): web_submit_data("414141_2") started  	[MsgId: MMSG-26355]
+Action.c(270): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://nimbusserver.aos.com:8002/order/api/v1/carts/166703779/product/17/color/414141?quantity=2"  	[MsgId: MERR-26612]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
